@@ -60,7 +60,7 @@ BTCPAY_HOST=https://mainnet.demo.btcpayserver.org
 #### Start frontend
 
 ```bash
-cd e-commerce
+cd btc-ecommerce-template
 npm start
 ```
 
