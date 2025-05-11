@@ -27,7 +27,7 @@ cd btc-ecommerce-template
 
 ```bash
 # For frontend
-cd e-commerce
+cd btc-ecommerce-template
 npm install
 
 # For backend
