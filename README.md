@@ -19,8 +19,8 @@ This is a full-stack e-commerce web application that allows users to browse prod
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/JWsoundsystems/btc-ecommerce-template
+cd btc-ecommerce-template
 ```
 
 ### 2. Install dependencies
