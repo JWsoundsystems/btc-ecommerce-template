@@ -1,0 +1,40 @@
+/* src/components/Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #343a40; /* Match the background color with header and footer */
+  color: white; /* Ensure text is readable on dark background */
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Add a border */
+  text-align: center;
+  width: 300px;
+  max-width: 80%; /* Ensure it doesn't exceed 80% of the viewport width */
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.modal-content .btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modal-content .btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,95 @@
+.cart-page {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #343a40; /* Dark background color for the entire cart */
+  color: #fff; /* Text color for better readability on dark background */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items to the space between */
+  background-color: #343a40; /* Dark background color to match the product list */
+  color: #fff; /* Text color for better readability on dark background */
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-item h3 {
+  margin: 0 0 10px;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+.cart-item .btn-primary {
+  background-color: #007bff; /* Match the add to cart button color */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-item .btn-primary:hover {
+  background-color: #0056b3; /* Match the add to cart button hover color */
+}
+
+.total-checkout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.total {
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Match the add to cart button color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Match the add to cart button hover color */
+}
+
+.invoice-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.invoice-details p {
+  margin: 10px 0;
+}
+
+.invoice-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.invoice-details a:hover {
+  text-decoration: underline;
+}

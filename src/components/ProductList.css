@@ -1,0 +1,109 @@
+/* src/components/ProductList.css */
+.filter-sort-container {
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  margin-bottom: 20px;
+}
+
+.sort-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort {
+  background-color: #4f565e;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  height: 38px; /* Match the height of the search bar */
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.sort h5 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.sort select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.product-card {
+  background-color: #4f565e; /* Dark background for the card */
+  color: white; /* Ensure text is readable on dark background */
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Add a border */
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%; /* Make the card take full width of its parent */
+  max-width: 450px; /* Set a maximum width for the card */
+  margin: 0 auto 20px auto; /* Center the card and add margin bottom */
+  opacity: 0; /* Initially hide the card */
+  transform: translateY(20px); /* Initial position for animation */
+  animation: fadeInUp 0.5s ease-in-out forwards; /* Apply the animation */
+}
+
+.product-card:nth-of-type(1) {
+  animation-delay: 0.1s;
+}
+
+.product-card:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+
+.product-card:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+
+.product-card:nth-of-type(4) {
+  animation-delay: 0.4s;
+}
+
+.product-card:nth-of-type(5) {
+  animation-delay: 0.5s;
+}
+
+.product-card:nth-of-type(6) {
+  animation-delay: 0.6s;
+}
+
+.product-card img {
+  width: 250px; /* Increase the image size */
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.product-card-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.product-card-title a:hover {
+  color: #f0f0f0; /* Change color on hover to a lighter shade of white */
+}
+
+.product-card-price {
+  margin-bottom: 10px;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

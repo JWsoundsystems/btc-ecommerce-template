@@ -1,0 +1,66 @@
+/* src/components/SearchBar.css */
+.sort-search-container {
+    background-color: #4f565e; /* Match the background color */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 450px; /* Set max width to match the product card */
+    margin-left: auto; /* Anchor to the right side */
+    margin-bottom: 20px;
+  }
+  
+  .sort {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .sort h5 {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .sort select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .search-bar {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white; /* Ensure the input field remains readable */
+    color: black; /* Text color inside the input field */
+  }
+  
+  .search-bar::placeholder {
+    color: #888; /* Placeholder text color */
+  }
+  
+  .search-bar-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #007bff; /* Button background color */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-bar-button:hover {
+    background-color: #0056b3; /* Button hover color */
+  }
+  

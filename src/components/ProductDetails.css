@@ -1,0 +1,33 @@
+/* src/components/ProductDetails.css */
+.product-details {
+  background-color: #343a40; /* Match the background color with header and footer */
+  color: white; /* Ensure text is readable on dark background */
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Add a border */
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-details img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.product-details .btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-details .btn:hover {
+  background-color: #0056b3;
+}
