@@ -1,6 +1,6 @@
 # Basic Bitcoin E-Commerce Store
 
-This is a full-stack e-commerce web application that allows users to browse products, add items to a cart, and check out using Bitcoin through BTCPay Server. Built with React on the frontend and Node.js/Express on the backend, it uses BTCPay's API and webhooks to create and monitor Bitcoin payment invoices.
+This is a full-stack e-commerce web application that allows users to browse/search products, add items to a cart, and check out by paying via Bitcoin through BTCPay Server. Built with React on the frontend and Node.js/Express on the backend, it uses BTCPay's API and webhooks to create and monitor Bitcoin payment invoices.
 
 ---
 
