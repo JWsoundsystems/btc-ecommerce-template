@@ -121,4 +121,4 @@ MIT
 
 ## Contributors
 
-* @YourGitHubName
+* @JWSoundsystems
