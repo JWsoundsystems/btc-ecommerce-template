@@ -52,7 +52,8 @@ BTCPAY_HOST=https://your-btcpay-host.example.com
 ```
 BTCPAY_HOST=https://mainnet.demo.btcpayserver.org
 ```
-
+> You will also need to sign up and create your own BTCPay Server Store:
+> https://mainnet.demo.btcpayserver.org/login
 ---
 
 ### 4. Start the development servers
